@@ -1,0 +1,45 @@
+name: CmdHelp
+version: ${project.version}
+main: com.ham5teak.plugins.cmdhelp.CmdHelp
+api-version: 1.13
+authors: [BenjaminAct]
+description: Command Helper
+commands:
+  cmdhelp:
+    description: Command Helper
+    usage: "/cmdhelp - Opens Command Helper GUI\n/cmdhelp reload - Reloads Plugin"
+    permission: cmdhelp.player
+  cmdhelp reload:
+    description: Reload Command Help Plugin
+    usage: /cmdhelp reload"
+    permission: cmdhelp.staff
+permissions:
+  cmdhelp.player:
+    description: Give access to players
+    default: false
+  cmdhelp.staff:
+    description: Give access to staff
+    default: op
+    children:
+      cmdhelp.player: true
+  cmdhelp.rank0:
+    description: Give access to rank 0 command helper
+    default: op
+    children:
+      cmdhelp.staff: true
+  cmdhelp.rank1:
+    description: Give access to rank 1 command helper
+    default: op
+    children:
+      cmdhelp.staff: true
+  cmdhelp.rank2:
+    description: Give access to rank 2 command helper
+    default: op
+    children:
+      cmdhelp.staff: true
+  cmdhelp.rank3:
+    description: Give access to rank 3 command helper
+    default: op
+    children:
+      cmdhelp.staff: true
+
