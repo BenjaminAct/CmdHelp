@@ -1,0 +1,159 @@
+Configurations:
+  FixedPos: false
+  BackButton:
+    Material: "BARRIER"
+    Name: "Back"
+    Lore: "Plugins View"
+PluginItems:
+  plugin1:
+    Info:
+        Material: "BOOK"
+        DisplayPos: 12
+        Name: "plugin1"
+        Lore: "Description of Plugin1"
+        RankNo: 0
+    CommandItems:
+        command1-1:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/command1-1"
+            Lore: "Description: [Insert Here]"
+            RankNo: 0
+        command1-2:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/command1-2"
+            Lore: "Description: [Insert Here]"
+            RankNo: 0
+            
+  plugin2:
+    Info:
+        Material: "BOOK"
+        DisplayPos: 13
+        Name: "plugin2"
+        Lore: "Description of Plugin2"
+        RankNo: 1
+    CommandItems:
+        command2-1:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/command2-1"
+            Lore: "Description: [Insert Here]"
+            RankNo: 0
+        command2-2:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/command2-2"
+            Lore: "Description: [Insert Here]"
+            RankNo: 1
+            
+  plugin3:
+    Info:
+        Material: "BOOK"
+        DisplayPos: 14
+        Name: "plugin3"
+        Lore: "Description of Plugin3"
+        RankNo: 2
+    CommandItems:
+        command3-1:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/command3-1"
+            Lore: "Description: [Insert Here]"
+            RankNo: 0
+        command3-2:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/command3-2"
+            Lore: "Description: [Insert Here]"
+            RankNo: 1
+        command3-3:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/command3-3"
+            Lore: "Description: [Insert Here]"
+            RankNo: 2
+        
+  plugin4:
+    Info:
+        Material: "BOOK"
+        DisplayPos: 15
+        Name: "plugin4"
+        Lore: "Description of Plugin4"
+        RankNo: 3
+    CommandItems:
+    
+  General:
+    Info:
+        Material: "BOOK"
+        DisplayPos: 0
+        Name: "General"
+        Lore: "General Commands"
+        RankNo: 4
+    CommandItems:
+        SetHome:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/sethome"
+            Lore: "Set home at your current position. This will be your revive point when you die."
+            RankNo: 4
+        Home:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/home"
+            Lore: "Teleports you to your home."
+            RankNo: 4
+        Wild:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/wild"
+            Lore: "Teleports you to a random location in the world. [15-Minutes Cooldown]"
+            RankNo: 4
+ 
+  MyWarp:
+    Info:
+        Material: "BOOK"
+        DisplayPos: 1
+        Name: "MyWarp"
+        Lore: "Create and teleport to your own warp or other players'!"
+        RankNo: 4
+    CommandItems:
+        MyWarp_Create:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/mw create|set [WarpName]"
+            Lore: "Create your warp at your current position."
+            RankNo: 4
+        MyWarp_Delete:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/mw remove|delete [WarpName]"
+            Lore: "Delete your warp."
+            RankNo: 4
+        MyWarp_Use:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/mw [WarpName]"
+            Lore: "Teleports you to the warp."
+            RankNo: 4
+        MyWarp_Access:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/mw [private|public] [WarpName]"
+            Lore: "Sets the accessibility of your warp."
+            RankNo: 4
+        MyWarp_Invite:
+            Material: "PAPER"
+            DisplayPos: 0
+            Name: "/mw invite [PlayerName] [WarpName]"
+            Lore: "Invite a player to your warp."
+            RankNo: 4
+            
+  PShop:
+    Info:
+        Material: "BOOK"
+        DisplayPos: 2
+        Name: "PShop"
+        Lore: "Player Shop GUI where players can buy/sell their items in the shop."
+        RankNo: 4
+    CommandItems:
